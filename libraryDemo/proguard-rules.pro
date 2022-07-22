@@ -20,7 +20,10 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 -keep class com.example.librarydemo.MyButton
--keepclassmembernames class com.example.librarydemo.MyButton
+{
+    public <methods>;
+
+}
 -keep class com.example.librarydemo.IndoorLibrary
 
 -keepclassmembernames class com.example.librarydemo.IndoorLibrary
