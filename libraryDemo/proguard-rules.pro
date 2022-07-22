@@ -21,5 +21,7 @@
 #-renamesourcefileattribute SourceFile
 -keep class com.example.librarydemo.MyButton
 -keepclassmembernames class com.example.librarydemo.MyButton
+-keep class com.example.librarydemo.IndoorLibrary
+
 -keepclassmembernames class com.example.librarydemo.IndoorLibrary
 
